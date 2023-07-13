@@ -2,7 +2,7 @@
     <nav class="sidebar-nav">
 
         <ul class="nav">
-            @can('user_management_access')
+            {{-- @can('user_management_access')
                 <li class="nav-item nav-dropdown">
                     <a class="nav-link  nav-dropdown-toggle" href="#">
                         <i class="fa-fw fas fa-users nav-icon">
@@ -43,7 +43,7 @@
                         @endcan
                     </ul>
                 </li>
-            @endcan
+            @endcan --}}
             @can('category_access')
                 <li class="nav-item">
                     <a href="{{ route("admin.categories.index") }}" class="nav-link {{ request()->is('admin/categories') || request()->is('admin/categories/*') ? 'active' : '' }}">

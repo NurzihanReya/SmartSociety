@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'site_title' => 'Society Map',
+    'site_title' => 'Smart Society',
 ];
